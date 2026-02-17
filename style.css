@@ -1,0 +1,79 @@
+body {
+    background-color: oklch(0.145 0 0);
+    /* color-mix(in oklab,color-mix(in oklab,var(--color-red-950)50%,transparent)var(--tw-shadow-alpha),transparent) */
+    color: white;
+    font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 24px;
+}
+
+header {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0
+}
+
+header p {
+    border-radius: 25px;
+    background-color: rgba(150, 0, 0, 0.5);
+    padding: 15px 25px;
+    font-size: 16px;
+    color: coral;
+}
+
+header h1 {
+    font-size: 64px;
+    margin: 0;
+}
+
+header h4 {
+    width: 32%;
+    text-align: center;
+    font-weight: 200;
+    color: grey
+}
+
+header button {
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    border-radius: 12px;
+    padding: 15px 20px;
+}
+
+.miron {
+    display: flex;
+    justify-content: ;
+    gap: 15px;
+}
+
+h2 {
+    text-align: center;
+}
+
+.miron article {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    border-radius: 15px;
+    height: 30%;
+    background-color: grey;
+    height: 300px;
+    width: 20vw;
+    padding: 10px;
+}
+
+.miron p {
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: darkred;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
